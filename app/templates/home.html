@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to My Portfolio</h1>
+    <p class="lead">I'm a computer science graduate who seek passion on Aritificial Intelligence and Machine Learning Knowledge</p>
+    <hr class="my-4">
+    <p>Lets go through with who am I.</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('main.projects') }}" role="button">View Projects</a>
+</div>
+{% endblock %}

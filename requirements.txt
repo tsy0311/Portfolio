@@ -1,0 +1,14 @@
+Flask
+Flask-WTF
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Login
+Flask-Bcrypt
+Flask-Mail
+Flask-Admin
+Flask-CKEditor
+Flask-Babel
+Flask-Caching
+pytest
+pytest-flask
+python-dotenv

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>About Me</h1>
+<div class="row">
+    <div class="col-md-5">
+        <img src="{{ url_for('static', filename='/images/profile_pic.jpg') }}" alt="Profile Picture" class="img-fluid-rounded">
+    </div>
+    <div class="col-md-6">
+        <h2>Teo Say Yong</h2>
+        <p>
+            I am a computer science graduate with a passion for AI and machine learning, seeking a remote position to apply my skills in Python, JavaScript, HTML5, and CSS. With experience in data analysis, website performance, security, and business solutions, I have contributed to success through my technical expertise. As a proactive and organized team player, I am excited to work on AI-driven projects that enhance assistive technologies.
+        </p>
+        <h3>Skills</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li>Python (Flask)</li>
+                    <li>Java/JavaScript</li>
+                    <li>Prolog</li>
+                    <li>Ocaml</li>
+                    <li>Assembly (Raspberry Pi)</li>
+                    <li>Machine Learning</li>
+                    <li>HTML/CSS</li>
+                    <li>Flask</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li>XML/JSON</li>
+                    <li>MySQL, HeidiSQL, NoSQL (MongoDB, MariaDB)</li>
+                    <li>CNS - Cryptography</li>
+                    <li>AI - MDP, Reinforcement Learning, PDDL</li>
+                    <li>Firewall</li>
+                </ul>
+            </div>
+        </div>
+        <h3>Education</h3>
+        <p>Bachelor of Science in Computer Science, University of Heriot-Watt, 2024</p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Add New Project</h1>
+<form method="POST" action="{{ url_for('admin.add_project') }}">
+    {{ form.hidden_tag() }}
+    <div class="mb-3">
+        {{ form.title.label(class="form-label") }}
+        {{ form.title(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.description.label(class="form-label") }}
+        {{ form.description(class="form-control", rows=5) }}
+    </div>
+    <div class="mb-3">
+        {{ form.image_url.label(class="form-label") }}
+        {{ form.image_url(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.github_url.label(class="form-label") }}
+        {{ form.github_url(class="form-control") }}
+    </div>
+    <div class="mb-3">
+        {{ form.live_url.label(class="form-label") }}
+        {{ form.live_url(class="form-control") }}
+    </div>
+    {{ form.submit(class="btn btn-primary") }}
+</form>
+{% endblock %}
