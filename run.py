@@ -11,8 +11,4 @@ def make_shell_context():
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
     app.run(debug=True)
-=======
-    app.run(debug=True)
->>>>>>> bf6a5ec5733d63bd77c238ab5cfff388bcdb4093
